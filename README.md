@@ -24,6 +24,8 @@ git add .
 git commit -m "Agregar CSS y JS"
 git push
 
+background-image: url("../img/foto.jpg");
+
 
 
 :root {
