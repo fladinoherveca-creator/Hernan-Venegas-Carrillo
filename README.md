@@ -1,2 +1,879 @@
-# Hernan-Venegas-Carrillo
-PIZZA/index.html
+[index.html](https://github.com/user-attachments/files/30949798/index.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Colegio Hernán Venegas Carrillo | Institución Educativa Distrital</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="imagenes-indexprincipal/logos/favicon.svg">
+    <link rel="shortcut icon" href="imagenes-indexprincipal/logos/favicon.svg">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="css-js-indexprincipal/style-original.css">
+    <script src="css-js-indexprincipal/script-original.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-content">
+            <a href="#INICIO" class="logo-brand">
+                <div class="logo-img-wrapper">
+                    <img src="imagenes-indexprincipal/logos/logo.jpg" alt="Escudo I.E.D. Hernán Venegas Carrillo" class="logo-img">
+                </div>
+                <div class="brand-text-container">
+                    <span class="brand-title">Hernán Venegas Carrillo</span>
+                    <span class="brand-subtitle">Institución Educativa Distrital</span>
+                </div>
+            </a>
+            <button class="menu-toggle" aria-label="Abrir menú de navegación">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#INICIO" class="nav-link active">INICIO</a></li>
+                    <li><a href="#nosotros" class="nav-link">INSTITUCIÓN</a></li>
+                    <li><a href="#directivos" class="nav-link">DIRECTIVOS</a></li>
+                    <li><a href="#tecnicas" class="nav-link">TÉCNICAS</a></li>
+                    <li class="sub-menu">
+                        <a href="javascript:void(0);" class="nav-dropdown-toggle">PROYECTOS TICS ▾</a>
+                        <ul>
+                            <li><a href="/PATITAS/Patitas al rescate/pata/index.html">PATITAS AL RESCATE</a></li>
+                            <li><a href="/abuetocaima/abuetocaima/ABUELITICS/ABUELITICS/index.html">ABUELITICS</a></li>
+                            <li><a href="/NEWS/nuevo1.html">PERIÓDICO DIGITAL</a></li>
+                            <li><a href="/abuetocaima/abuetocaima/TOCAIMATURISTICO/TOCAIMATURISTICO2024/tocaima-turistico/indexn.html">TOCAIMA TURÍSTICO</a></li>
+                            <li><a href="/TIC/index.html">SISTEMAS TIC</a></li>
+                            <li><a href="/PANELES/index.html">SAE ENERGÍA</a></li>
+                            <li><a href="/APRAE/PRAE.html">PROYECTO PRAE</a></li>
+                            <li><a href="/centrosensorial/proyectoapp/index.html">CENTRO SENSORIAL</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="javascript:void(0);" class="nav-dropdown-toggle">DOCENTES ▾</a>
+                        <ul>
+                            <li><a href="cuerpoo.html">PÁGINAS DE DOCENTES</a></li>
+                            <li><a href="https://gssoftwareysoluciones.com/2022/" target="_blank" rel="noopener">BOLETINES</a></li>
+                            <li><a href="/Notas/indexnotas.html">TUS NOTAS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="mallas.html" class="nav-link">CURRICULARES</a></li>
+                    <li><a href="inclusionN.html" class="nav-link">INCLUSIÓN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION - ULTRA ANIMADO Y DINÁMICO -->
+        <section class="hero-modern" id="INICIO">
+            <!-- Slider de imágenes de fondo -->
+            <div class="hero-bg-container">
+                <div class="bg-gradient"></div>
+                <div class="bg-pattern"></div>
+                <div class="hero-slider">
+                    <div class="slide active" style="background-image: url('imagenes-indexprincipal/carrusel/carrusel.jpeg');"></div>
+                    <div class="slide" style="background-image: url('imagenes-indexprincipal/galeria/carrusel 1.jpeg');"></div>
+                    <div class="slide" style="background-image: url('imagenes-indexprincipal/galeria/carrusel 2.jpeg');"></div>
+                </div>
+            </div>
+
+            <div class="hero-content-modern">
+                <!-- Badge Institucional Pulsante -->
+                <div class="hero-badge-pulse">
+                    <span class="pulse-dot"></span>
+                    <span class="badge-text-hero">✨ I.E.D. HERNÁN VENEGAS CARRILLO</span>
+                </div>
+
+                <!-- Escudo Flotante Animado con Parallax -->
+                <div class="floating-logo hero-parallax" data-speed="2">
+                    <div class="logo-glow"></div>
+                    <img src="imagenes-indexprincipal/logos/logo.jpg" alt="Escudo I.E.D. Hernán Venegas Carrillo" class="floating-logo-img">
+                </div>
+
+                <!-- Título principal con degradado y reflejo -->
+                <div class="title-container">
+                    <h1 class="main-title">
+                        <span class="title-word title-word-1">¡Bienvenidos!</span>
+                    </h1>
+                </div>
+
+                <div class="divider-modern">
+                    <div class="divider-orbit">
+                        <div class="orbit-dot"></div>
+                    </div>
+                </div>
+
+                <!-- Subtítulo con Animación de Texto en Movimiento -->
+                <div class="subtitle-modern">
+                    <p class="subtitle-text">EXCELENCIA Y TECNOLOGÍA EN TOCAIMA</p>
+                </div>
+
+                <!-- Descripción Dinámica con Estatus Morphing -->
+                <div class="description-modern">
+                    <p class="description-text">
+                        <span id="typing-text" class="typing-text">Formando líderes con excelencia académica, valores y programas SENA.</span>
+                    </p>
+                </div>
+
+                <!-- Botones CTA de Acción Rápida -->
+                <div class="hero-cta-buttons">
+                    <a href="#tecnicas" class="hero-btn primary-btn">
+                        <span>Explorar Programas 🎓</span>
+                        <div class="btn-shine"></div>
+                    </a>
+                    <a href="#nosotros" class="hero-btn secondary-btn">
+                        <span>Conocer Institución 🏛️</span>
+                    </a>
+                </div>
+
+                <!-- Estadísticas Animadas con Anillos SVG -->
+                <div class="stats-circles">
+                    <div class="stat-circle">
+                        <div class="circle-progress">
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="circle-bg" cx="50" cy="50" r="42"/>
+                                <circle class="circle-bar bar-950" cx="50" cy="50" r="42"/>
+                            </svg>
+                            <span class="stat-number" data-target="950">+950</span>
+                        </div>
+                        <span class="stat-label">Estudiantes</span>
+                    </div>
+
+                    <div class="stat-circle">
+                        <div class="circle-progress">
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="circle-bg" cx="50" cy="50" r="42"/>
+                                <circle class="circle-bar bar-60" cx="50" cy="50" r="42"/>
+                            </svg>
+                            <span class="stat-number" data-target="60">+60</span>
+                        </div>
+                        <span class="stat-label">Años de Trayectoria</span>
+                    </div>
+
+                    <div class="stat-circle">
+                        <div class="circle-progress">
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="circle-bg" cx="50" cy="50" r="42"/>
+                                <circle class="circle-bar bar-99" cx="50" cy="50" r="42"/>
+                            </svg>
+                            <span class="stat-number" data-target="99.9">99.9%</span>
+                        </div>
+                        <span class="stat-label">Satisfacción</span>
+                    </div>
+                </div>
+
+                <!-- Indicadores de diapositivas del hero -->
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+
+                <div class="scroll-indicator-modern">
+                    <a href="#nosotros" aria-label="Desplazar hacia abajo">
+                        <div class="scroll-line">
+                            <div class="scroll-progress"></div>
+                        </div>
+                        <span class="scroll-text">Desplazar</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="optimized-particles">
+                <canvas id="particles-canvas"></canvas>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE NOSOTROS -->
+        <section class="sobre-nosotros-section" id="nosotros">
+            <div class="sobre-nosotros-content">
+                <div class="sobre-nosotros-left">
+                    <div class="blob-container">
+                        <div class="blob-shape">
+                            <iframe class="blob-video" src="https://www.youtube.com/embed/V-lbItf7obY" title="Matrículas I.E.D Hernán Venegas Carrillo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="floating-element libro-1"><span class="floating-emoji">📚</span></div>
+                        <div class="floating-element lapiz-1"><span class="floating-emoji">✏️</span></div>
+                        <div class="floating-element libro-2"><span class="floating-emoji">📖</span></div>
+                        <div class="floating-element lapiz-2"><span class="floating-emoji">🌱</span></div>
+                    </div>
+                </div>
+                
+                <div class="sobre-nosotros-right">
+                    <div class="sobre-nosotros-text">
+                        <span class="section-tag">CONÓCENOS</span>
+                        <h2 class="sobre-nosotros-title">Acerca de Nosotros</h2>
+                        <h3 class="sobre-nosotros-subtitle">¿Por qué elegir el Colegio Hernán Venegas Carrillo?</h3>
+                        <p class="sobre-nosotros-description">
+                            Somos una institución educativa de alto nivel comprometida con la formación integral de nuestros estudiantes, 
+                            brindando una educación de calidad que combina sólidos valores éticos, rigor académico y 
+                            desarrollo tecnológico continuo. Nuestra misión es formar ciudadanos líderes, creativos y 
+                            preparados para afrontar los desafíos del entorno global.
+                        </p>
+                        
+                        <!-- Nuestros Valores -->
+                        <div class="valores-container">
+                            <div class="valor-item">
+                                <div class="valor-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                                    </svg>
+                                </div>
+                                <div class="valor-info">
+                                    <h4 class="valor-title">Excelencia Académica</h4>
+                                    <p class="valor-desc">Enfoque pedagógico exigente y contextualizado</p>
+                                </div>
+                            </div>
+                            
+                            <div class="valor-item">
+                                <div class="valor-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21"/>
+                                        <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z"/>
+                                    </svg>
+                                </div>
+                                <div class="valor-info">
+                                    <h4 class="valor-title">Valores Humanos</h4>
+                                    <p class="valor-desc">Construcción de ciudadanía, respeto y empatía</p>
+                                </div>
+                            </div>
+                            
+                            <div class="valor-item">
+                                <div class="valor-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"/>
+                                    </svg>
+                                </div>
+                                <div class="valor-info">
+                                    <h4 class="valor-title">Innovación Tecnológica</h4>
+                                    <p class="valor-desc">Programas SENA en TIC, Contabilidad y Energía SAE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN NUESTRA COMUNIDAD -->
+        <section class="nuestra-comunidad-section" id="comunidad">
+            <div class="comunidad-container">
+                <div class="comunidad-header">
+                    <span class="section-tag">DOCUMENTACIÓN INSTITUCIONAL</span>
+                    <h2 class="comunidad-main-title">
+                        <span class="title-gradient">Nuestra</span>
+                        <span class="title-outline">Comunidad</span>
+                    </h2>
+                </div>
+
+                <div class="comunidad-content-grid">
+                    <!-- Tarjeta 1 - Proyecto Educativo -->
+                    <div class="comunidad-card" data-card="1">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="card-icon">📚</div>
+                                <h3 class="card-title">Proyecto Educativo (PEI)</h3>
+                                <p class="card-desc">Visión y horizonte pedagógico</p>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-content">
+                                    <h4>PEI Institucional</h4>
+                                    <p>Documento rector que fundamenta nuestra propuesta pedagógica e inclusión educativa.</p>
+                                    <div class="card-stats">
+                                        <div class="stat">
+                                            <span class="stat-number">+60</span>
+                                            <span class="stat-label">Años de Trayectoria</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="PEI2022.pdf" class="card-download-btn" target="_blank">Descargar PDF 📄</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2 - Manual de Convivencia -->
+                    <div class="comunidad-card" data-card="2">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="card-icon">
+                                    <img src="imagenes-indexprincipal/logos/manual de convivencia.png" alt="Manual" class="card-icon-img">
+                                </div>
+                                <h3 class="card-title">Manual de Convivencia</h3>
+                                <p class="card-desc">Derechos, deberes y pactos</p>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-content">
+                                    <h4>Manual Actualizado</h4>
+                                    <p>Normas de convivencia armónica para la comunidad estudiantil y docente.</p>
+                                </div>
+                                <a href="manual2023.pdf" class="card-download-btn" target="_blank">Descargar PDF 📄</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3 - Sistema de Evaluación -->
+                    <div class="comunidad-card" data-card="3">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="card-icon">📊</div>
+                                <h3 class="card-title">Sistema de Evaluación (SIE)</h3>
+                                <p class="card-desc">Criterios de evaluación integral</p>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-content">
+                                    <h4>SIE Institucional</h4>
+                                    <p>Parámetros, escalas cuantitativas y cualitativas de avance escolar.</p>
+                                </div>
+                                <a href="SIE2022.pdf" class="card-download-btn" target="_blank">Descargar PDF 📄</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN NOTICIAS ESCOLARES -->
+        <section class="noticias-modern-section" id="noticias">
+            <div class="noticias-modern-container">
+                <div class="noticias-header-modern">
+                    <div class="news-badge-pulse">
+                        <span class="badge-text">📰 BOLETÍN E INFORMATIVO</span>
+                    </div>
+                    
+                    <h2 class="noticias-title-modern">
+                        <span class="news-title-main">Noticias</span>
+                        <span class="news-title-sub">Escolares</span>
+                    </h2>
+
+                    <p class="noticias-desc-modern">
+                        Mantente informado sobre los eventos, convocatorias, logros y avances de nuestra institución.
+                    </p>
+                </div>
+
+                <div class="noticias-preview">
+                    <div class="preview-image">
+                        <img src="imagenes-indexprincipal/logos/news.png" alt="Periódico Escolar Digital" class="preview-img">
+                    </div>
+                    
+                    <div class="preview-content">
+                        <h3>Periódico Digital Herveca</h3>
+                        <p>Accede a reportajes especiales, proyectos estudiantiles y la actualidad informativa de la comunidad educativa.</p>
+                        
+                        <div class="preview-features">
+                            <div class="feature">
+                                <span class="feature-icon">📖</span>
+                                <span>Artículos Educativos</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">📅</span>
+                                <span>Cronograma de Eventos</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">🏆</span>
+                                <span>Reconocimientos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="noticias-cta-simple">
+                    <a href="/NEWS/nuevo1.html" class="cta-btn-grande">
+                        <span class="btn-content">
+                            <span class="btn-text">Ver Periódico Escolar</span>
+                            <span class="btn-arrow">→</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERÍA HERVECA -->
+        <section class="galeria-herveca-section">
+            <div class="galeria-herveca-header">
+                <span class="section-tag">NUESTROS MOMENTOS</span>
+                <h2 class="galeria-herveca-title">GALERÍA HERVECA</h2>
+                <p class="galeria-herveca-desc">Explora las actividades pedagógicas, deportivas, técnicas y culturales de nuestra institución.</p>
+            </div>
+            
+            <div class="galeria-herveca-grid">
+                <div class="galeria-herveca-item">
+                    <img src="imagenes-indexprincipal/galeria/carrusel 1.jpeg" alt="Laboratorio de Informática TIC" class="galeria-herveca-img">
+                    <div class="galeria-herveca-overlay">
+                        <span class="galeria-herveca-text">Tecnología TIC</span>
+                    </div>
+                </div>
+                <div class="galeria-herveca-item">
+                    <img src="imagenes-indexprincipal/galeria/carrusel 2.jpeg" alt="Proyecto Energías SAE" class="galeria-herveca-img">
+                    <div class="galeria-herveca-overlay">
+                        <span class="galeria-herveca-text">Energía Solar SAE</span>
+                    </div>
+                </div>
+                <div class="galeria-herveca-item">
+                    <img src="imagenes-indexprincipal/galeria/carrusel 3.jpeg" alt="Instalaciones del Colegio" class="galeria-herveca-img">
+                    <div class="galeria-herveca-overlay">
+                        <span class="galeria-herveca-text">Instalaciones</span>
+                    </div>
+                </div>
+                <div class="galeria-herveca-item">
+                    <img src="imagenes-indexprincipal/galeria/carrusel 4.jpeg" alt="Formación Especializada" class="galeria-herveca-img">
+                    <div class="galeria-herveca-overlay">
+                        <span class="galeria-herveca-text">Formación Contable</span>
+                    </div>
+                </div>
+                <div class="galeria-herveca-item">
+                    <img src="imagenes-indexprincipal/galeria/carrusel 5.jpeg" alt="Proyectos SENA" class="galeria-herveca-img">
+                    <div class="galeria-herveca-overlay">
+                        <span class="galeria-herveca-text">Proyectos SENA</span>
+                    </div>
+                </div>
+                <div class="galeria-herveca-item">
+                    <img src="imagenes-indexprincipal/carrusel/carrusel.jpeg" alt="Campus Hernán Venegas Carrillo" class="galeria-herveca-img">
+                    <div class="galeria-herveca-overlay">
+                        <span class="galeria-herveca-text">Campus Principal</span>
+                    </div>
+                </div>
+            </div>
+            <a href="galeria1.html" class="galeria-herveca-more-btn">Ver más fotos 📷</a>
+        </section>
+
+        <!-- SECCIÓN DIRECTIVOS -->
+        <section class="directivos-modern-section" id="directivos">
+            <div class="directivos-modern-container">
+                <div class="directivos-header-modern">
+                    <div class="directivos-badge">
+                        <span class="badge-icon">👑</span>
+                        <span class="badge-text">EQUIPO LÍDER</span>
+                    </div>
+                    
+                    <h2 class="directivos-title-modern">
+                        <span class="title-main">Directivos</span>
+                        <span class="title-sub">Institucionales</span>
+                    </h2>
+
+                    <p class="directivos-desc-modern">
+                        Conoce al equipo directivo que orienta y lidera nuestra comunidad con vocación y excelencia.
+                    </p>
+                </div>
+
+                <div class="directivos-cards-container">
+                    <!-- Rector -->
+                    <div class="directivo-card-modern" data-card="1">
+                        <div class="card-inner-modern">
+                            <div class="card-front-modern">
+                                <div class="card-image-container">
+                                    <img src="imagenes-indexprincipal/directivos/rector.jpg" alt="Rector" class="directivo-img-modern">
+                                    <div class="card-badge">RECTORÍA</div>
+                                </div>
+                                <div class="card-content-modern">
+                                    <h3 class="card-title-modern">Rector</h3>
+                                    <p class="card-role">Dirección General</p>
+                                </div>
+                            </div>
+                            <div class="card-back-modern">
+                                <div class="back-content">
+                                    <h4>Liderazgo Principal</h4>
+                                    <p>Responsable de la dirección estratégica, académica y administrativa de la institución.</p>
+                                    <div class="card-features">
+                                        <div class="feature"><span>🎯 Dirección Estratégica</span></div>
+                                        <div class="feature"><span>📊 Gestión Institucional</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coordinadora Angela -->
+                    <div class="directivo-card-modern" data-card="2">
+                        <div class="card-inner-modern">
+                            <div class="card-front-modern">
+                                <div class="card-image-container">
+                                    <img src="imagenes-indexprincipal/directivos/angela.jpg" alt="Coordinadora Angela" class="directivo-img-modern">
+                                    <div class="card-badge">COORDINACIÓN</div>
+                                </div>
+                                <div class="card-content-modern">
+                                    <h3 class="card-title-modern">Angela</h3>
+                                    <p class="card-role">Coordinación Académica</p>
+                                </div>
+                            </div>
+                            <div class="card-back-modern">
+                                <div class="back-content">
+                                    <h4>Gestión Académica</h4>
+                                    <p>Encargada de la organización curricular, acompañamiento pedagógico y seguimiento académico.</p>
+                                    <div class="card-features">
+                                        <div class="feature"><span>📚 Orientación Curricular</span></div>
+                                        <div class="feature"><span>⚡ Eficiencia Escolar</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coordinador Alvaro -->
+                    <div class="directivo-card-modern" data-card="3">
+                        <div class="card-inner-modern">
+                            <div class="card-front-modern">
+                                <div class="card-image-container">
+                                    <img src="imagenes-indexprincipal/directivos/alvaro.jpg" alt="Coordinador Alvaro" class="directivo-img-modern">
+                                    <div class="card-badge">COORDINACIÓN</div>
+                                </div>
+                                <div class="card-content-modern">
+                                    <h3 class="card-title-modern">Alvaro</h3>
+                                    <p class="card-role">Coordinación de Procesos</p>
+                                </div>
+                            </div>
+                            <div class="card-back-modern">
+                                <div class="back-content">
+                                    <h4>Convivencia y Actividades</h4>
+                                    <p>Coordinador de procesos convivenciales, articulación técnica y proyectos especiales.</p>
+                                    <div class="card-features">
+                                        <div class="feature"><span>🔄 Convivencia Escolar</span></div>
+                                        <div class="feature"><span>📅 Proyectos Técnicos</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE TÉCNICAS (CON ID CORREGIDO PARA NAVEGACIÓN EN DESKTOP) -->
+        <section class="tecnicas-section-wrapper" id="tecnicas">
+            <div class="tecnicas-hero-section">
+                <div class="tecnicas-hero-container">
+                    <div class="tecnicas-badge">🎓 PROGRAMAS TÉCNICOS SENA</div>
+                    <h2 class="tecnicas-hero-title">
+                        Técnicas Especializadas
+                    </h2>
+                    <p class="tecnicas-hero-desc">
+                        Formación técnica de alta calidad articulada con el SENA en <strong>Tecnologías de la Información (TIC)</strong>, 
+                        <strong>Contabilidad Sistematizada</strong> y <strong>Sistemas Alternos de Energía (SAE)</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Filtro por Grados -->
+            <div class="tecnicas-modern-container">
+                <div class="grado-filter">
+                    <button class="filter-btn active" data-grado="all">
+                        📚 Todas las Técnicas
+                    </button>
+                    <button class="filter-btn" data-grado="decimo">
+                        🎯 Décimo Grado
+                    </button>
+                    <button class="filter-btn" data-grado="once">
+                        🚀 Undécimo Grado
+                    </button>
+                </div>
+
+                <!-- Grid de Tarjetas de Técnicas -->
+                <div class="tecnicas-grid-modern">
+                    <!-- TIC Décimo -->
+                    <div class="tecnica-card-modern" data-grado="decimo">
+                        <div class="tecnica-header">
+                            <div class="tecnica-icon">💻</div>
+                            <h3 class="tecnica-title">TICS DÉCIMO</h3>
+                            <p class="tecnica-subtitle">Tecnologías de la Información</p>
+                        </div>
+                        <div class="tecnica-content">
+                            <div class="tecnica-info">
+                                <div class="professor-details">
+                                    <h4>Alvaro Rodríguez</h4>
+                                    <p>Docente Especializado</p>
+                                </div>
+                                <div class="students-count">
+                                    <span class="students-number">30</span>
+                                    <span class="students-label">Estudiantes</span>
+                                </div>
+                            </div>
+                            <div class="titulaciones">
+                                <span class="titulacion-count">2 TITULACIONES</span>
+                                <div class="badges-group">
+                                    <span class="titulacion-badge">🎓 Técnico en TIC</span>
+                                    <span class="titulacion-badge">🏆 Sistemas SENA</span>
+                                </div>
+                            </div>
+                            <div class="tecnica-actions">
+                                <a href="TIC/index.html" class="saber-mas-btn">Saber más ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTABILIDAD Décimo -->
+                    <div class="tecnica-card-modern" data-grado="decimo">
+                        <div class="tecnica-header">
+                            <div class="tecnica-icon">📊</div>
+                            <h3 class="tecnica-title">CONTABILIDAD DÉCIMO</h3>
+                            <p class="tecnica-subtitle">Contabilidad Sistematizada</p>
+                        </div>
+                        <div class="tecnica-content">
+                            <div class="tecnica-info">
+                                <div class="professor-details">
+                                    <h4>Elsa Pinto</h4>
+                                    <p>Docente Especializada</p>
+                                </div>
+                                <div class="students-count">
+                                    <span class="students-number">30</span>
+                                    <span class="students-label">Estudiantes</span>
+                                </div>
+                            </div>
+                            <div class="titulaciones">
+                                <span class="titulacion-count">1 TITULACIÓN</span>
+                                <div class="badges-group">
+                                    <span class="titulacion-badge">🎓 Contabilidad SENA</span>
+                                </div>
+                            </div>
+                            <div class="tecnica-actions">
+                                <a href="conta2/index.html" class="saber-mas-btn">Saber más ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SAE Décimo -->
+                    <div class="tecnica-card-modern" data-grado="decimo">
+                        <div class="tecnica-header">
+                            <div class="tecnica-icon">🔋</div>
+                            <h3 class="tecnica-title">SAE DÉCIMO</h3>
+                            <p class="tecnica-subtitle">Sistemas Alternos de Energía</p>
+                        </div>
+                        <div class="tecnica-content">
+                            <div class="tecnica-info">
+                                <div class="professor-details">
+                                    <h4>Manuel Robles</h4>
+                                    <p>Docente Especializado</p>
+                                </div>
+                                <div class="students-count">
+                                    <span class="students-number">30</span>
+                                    <span class="students-label">Estudiantes</span>
+                                </div>
+                            </div>
+                            <div class="titulaciones">
+                                <span class="titulacion-count">1 TITULACIÓN</span>
+                                <div class="badges-group">
+                                    <span class="titulacion-badge">🎓 Técnico SAE SENA</span>
+                                </div>
+                            </div>
+                            <div class="tecnica-actions">
+                                <a href="PANELES/index.html" class="saber-mas-btn">Saber más ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TIC Undécimo -->
+                    <div class="tecnica-card-modern" data-grado="once">
+                        <div class="tecnica-header">
+                            <div class="tecnica-icon">💻</div>
+                            <h3 class="tecnica-title">TICS UNDÉCIMO</h3>
+                            <p class="tecnica-subtitle">Tecnologías de la Información</p>
+                        </div>
+                        <div class="tecnica-content">
+                            <div class="tecnica-info">
+                                <div class="professor-details">
+                                    <h4>Alvaro Rodríguez</h4>
+                                    <p>Docente Especializado</p>
+                                </div>
+                                <div class="students-count">
+                                    <span class="students-number">30</span>
+                                    <span class="students-label">Estudiantes</span>
+                                </div>
+                            </div>
+                            <div class="titulaciones">
+                                <span class="titulacion-count">2 TITULACIONES</span>
+                                <div class="badges-group">
+                                    <span class="titulacion-badge">🎓 Técnico en TIC</span>
+                                    <span class="titulacion-badge">🏆 Sistemas SENA</span>
+                                </div>
+                            </div>
+                            <div class="tecnica-actions">
+                                <a href="TIC/index.html" class="saber-mas-btn">Saber más ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTABILIDAD Undécimo -->
+                    <div class="tecnica-card-modern" data-grado="once">
+                        <div class="tecnica-header">
+                            <div class="tecnica-icon">📊</div>
+                            <h3 class="tecnica-title">CONTABILIDAD UNDÉCIMO</h3>
+                            <p class="tecnica-subtitle">Contabilidad Sistematizada</p>
+                        </div>
+                        <div class="tecnica-content">
+                            <div class="tecnica-info">
+                                <div class="professor-details">
+                                    <h4>Elsa Pinto</h4>
+                                    <p>Docente Especializada</p>
+                                </div>
+                                <div class="students-count">
+                                    <span class="students-number">27</span>
+                                    <span class="students-label">Estudiantes</span>
+                                </div>
+                            </div>
+                            <div class="titulaciones">
+                                <span class="titulacion-count">1 TITULACIÓN</span>
+                                <div class="badges-group">
+                                    <span class="titulacion-badge">🎓 Contabilidad SENA</span>
+                                </div>
+                            </div>
+                            <div class="tecnica-actions">
+                                <a href="conta2/index.html" class="saber-mas-btn">Saber más ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SAE Undécimo -->
+                    <div class="tecnica-card-modern" data-grado="once">
+                        <div class="tecnica-header">
+                            <div class="tecnica-icon">🔋</div>
+                            <h3 class="tecnica-title">SAE UNDÉCIMO</h3>
+                            <p class="tecnica-subtitle">Sistemas Alternos de Energía</p>
+                        </div>
+                        <div class="tecnica-content">
+                            <div class="tecnica-info">
+                                <div class="professor-details">
+                                    <h4>Manuel Robles</h4>
+                                    <p>Docente Especializado</p>
+                                </div>
+                                <div class="students-count">
+                                    <span class="students-number">21</span>
+                                    <span class="students-label">Estudiantes</span>
+                                </div>
+                            </div>
+                            <div class="titulaciones">
+                                <span class="titulacion-count">1 TITULACIÓN</span>
+                                <div class="badges-group">
+                                    <span class="titulacion-badge">🎓 Técnico SAE SENA</span>
+                                </div>
+                            </div>
+                            <div class="tecnica-actions">
+                                <a href="PANELES/index.html" class="saber-mas-btn">Saber más ↗</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PQR -->
+        <section class="pqr-section" id="pqr">
+            <div class="pqr-container">
+                <div class="pqr-header">
+                    <h2>Preguntas, Quejas, Reclamos y Sugerencias (PQR)</h2>
+                    <p>Envía tus solicitudes a las coordinaciones o rectoría institucional.</p>
+                </div>
+                
+                <form id="pqrForm" action="submit_pqr.php" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombres y Apellidos" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="celular">Número de Celular:</label>
+                            <input type="tel" id="celular" name="celular" placeholder="Ej: 310 000 0000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="sede">Sede Institucional:</label>
+                            <select id="sede" name="sede" required>
+                                <option value="">Seleccione una sede</option>
+                                <option value="Principal I.E.D Hernán Venegas Carrillo">Principal I.E.D Hernán Venegas Carrillo</option>
+                                <option value="Escuela Rural Guacaná">Escuela Rural Guacaná</option>
+                                <option value="Escuela Rural Acuata">Escuela Rural Acuata</option>
+                                <option value="Escuela Rural La Colorada">Escuela Rural La Colorada</option>
+                                <option value="Escuela Rural El Portillo">Escuela Rural El Portillo</option>
+                                <option value="Escuela Rural Vasquez">Escuela Rural Vasquez</option>
+                                <option value="Escuela Rural Armenia">Escuela Rural Armenia</option>
+                                <option value="I.E.D Rural El Copó">I.E.D Rural El Copó</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="jornada">Jornada:</label>
+                            <select id="jornada" name="jornada" required>
+                                <option value="">Seleccione una jornada</option>
+                                <option value="Mañana">Mañana</option>
+                                <option value="Única">Única</option>
+                                <option value="Fin de Semana">Fin de Semana</option>
+                                <option value="Ninguna">Ninguna</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="asunto">Tipo de Solicitud:</label>
+                            <select id="asunto" name="asunto" required>
+                                <option value="">Seleccione asunto</option>
+                                <option value="Pregunta">Pregunta / Consulta</option>
+                                <option value="Queja">Queja</option>
+                                <option value="Reclamo o sugerencia">Reclamo o Sugerencia</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="dirigido">Dirigido a:</label>
+                            <select id="dirigido" name="dirigido" required>
+                                <option value="">Seleccione el destinatario</option>
+                                <option value="Coordinación primaria">Coordinación Primaria</option>
+                                <option value="Coordinación secundaria">Coordinación Secundaria</option>
+                                <option value="Rectoría">Rectoría</option>
+                                <option value="Orientación académica">Orientación Académica</option>
+                                <option value="Secretaría">Secretaría</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="comentario">Comentario o Detalle:</label>
+                            <textarea id="comentario" name="comentario" placeholder="Escriba aquí los detalles de su solicitud..." rows="4" required></textarea>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">ENVIAR SOLICITUD ✉️</button>
+                </form>
+            </div> 
+        </section>
+    </main>
+
+    <!-- FOOTER INSTITUCIONAL -->
+    <footer class="footer-modern">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="imagenes-indexprincipal/logos/logo.jpg" alt="Logo Colegio Hernán Venegas Carrillo" class="footer-logo">
+                <div>
+                    <h3>Colegio Hernán Venegas Carrillo</h3>
+                    <p>Institución Educativa Distrital - Tocaima, Cundinamarca</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Colegio Hernán Venegas Carrillo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    <!-- MODAL LIGHTBOX PARA IMÁGENES INTERACTIVAS -->
+    <div id="image-modal" class="image-modal" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop"></div>
+        <div class="modal-window">
+            <button class="modal-close" id="modal-close-btn" aria-label="Cerrar vista">&times;</button>
+            <button class="modal-nav modal-prev" id="modal-prev-btn" aria-label="Anterior">❮</button>
+            <button class="modal-nav modal-next" id="modal-next-btn" aria-label="Siguiente">❯</button>
+            <div class="modal-body">
+                <img id="modal-img" src="" alt="Vista previa en alta resolución">
+                <div id="modal-caption" class="modal-caption"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTÓN FLOTANTE VOLVER ARRIBA -->
+    <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">
+        ▲
+    </button>
+</body>
+</html>
